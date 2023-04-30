@@ -1,0 +1,66 @@
+.sidebar{
+    &__card{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgb(185, 185, 185);
+        margin-bottom: 30px;
+    }
+    &__card-buscar{
+        margin-bottom: 10px;
+    }
+    &__card-form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__card-input{
+        background-color: #F5F6F7;
+        margin-bottom: 10px;
+        height: 30px;
+        &::placeholder{
+            list-style: none;
+            border-radius: 10px;
+        }
+    }
+    &__card-btn{
+        background-color: cadetblue;
+        height: 30px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        transition: 300ms;
+        &:hover{
+            transition: 300ms;
+            cursor: pointer;
+            background-color:  rgb(96, 186, 189);
+        }
+    }
+    &__publicidad{
+        border: 1px solid;
+        height: 250px;
+        margin-bottom: 30px;
+        
+    }
+
+    &__categoria{
+
+    }
+    &__categoria-title{
+        border-bottom: 3px solid  rgb(96, 186, 189);
+        padding: 0 0 10px;
+    }
+    &__categoria ul{
+        margin-top: 10px;
+    }
+    &__categoria li{
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding: 8px 0;
+    }
+    &__categoria a{
+        color: black;
+    }
+}

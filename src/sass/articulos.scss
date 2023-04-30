@@ -1,0 +1,96 @@
+.articulos {
+  background-color: #f5f6f7;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 25px 80px 0;
+  &__container {
+    margin-right: 25px;
+  }
+  &__container-vacio {
+    text-align: center;
+  }
+  &__container-vacio-title {
+    margin-bottom: 25px;
+  }
+  &__container-vacio-btn {
+    background-color: cadetblue;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: 300ms;
+    &:hover {
+      transition: 300ms;
+      cursor: pointer;
+      background-color: rgb(96, 186, 189);
+    }
+  }
+  &__container-vacio-btn a {
+    color: white;
+  }
+  &__container-cargar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  //////////////////////// LISTADO ////////////////////////////
+  &__container-blog {
+    /* border: 1px solid ; */
+    padding: 0 0 30px;
+    border-bottom: 1px solid rgb(185, 184, 184);
+    margin-bottom: 30px;
+  }
+  &__container-title {
+    margin-bottom: 20px;
+  }
+  &__container-content {
+    display: flex;
+    
+  }
+  &__container-content-img {
+    width: 300px;
+    height: 200px;
+  }
+  &__container-content-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__container-content-description {
+    margin-left: 30px;
+    font-size: 1.1em;
+  }
+  &__container-content-btn{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    &-editar{
+      background-color: rgb(12, 12, 210);
+      color: white;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border-radius: 5px;
+      transition: 300ms;
+      &:hover{
+        background-color: rgb(12, 12, 180);
+        cursor: pointer;
+      }
+    }
+    &-eliminar{
+      background-color: rgb(196, 4, 4);
+      color: white;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border-radius: 5px;
+      transition: 300ms;
+      &:hover{
+        background-color: rgb(180, 0, 0);
+        cursor: pointer;
+      }
+    }
+  }
+}

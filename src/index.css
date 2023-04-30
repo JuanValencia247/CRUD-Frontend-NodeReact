@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+.nav{
+    background: rgb(34,193,195);
+background: linear-gradient(83deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 100%;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    position: sticky;
+    top:0;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 16px;
+    gap: 20px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ///////////////////////////////////////////////////// */
+.header{
+    text-align: center;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__h2{
+
+}
+.header__span{
+
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////// */
+.inicio{
+    text-align: center;
+    background-color: #F5F6F7;
+    min-height: 500px;
+}
+
+/* ///////////////////////////////////////////////////// */
+footer{
+    padding: 50px;
+    min-height: 150px;
+}
+.footer{
+
+}
+
+/* ////////////////////////// ESTILOS DE CARGA /////////////////////////// */
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #F4BC34;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  
